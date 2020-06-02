@@ -1,5 +1,6 @@
 package com.luffy.view.service.rabbitMq;
 
+import com.luffy.view.annotation.MethodEnd;
 import com.luffy.view.config.mq.RabbitDelayQueueConfig;
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.Message;
@@ -22,6 +23,7 @@ public class DelayQueueConsumer {
      */
     @RabbitListener(queues = RabbitDelayQueueConfig.DELAY_QUEUE_NAME, containerFactory = "myFactory")
     @RabbitHandler
+    @MethodEnd(name = "DelayQueueConsumer")
     public void consumer(String message, Channel channel, Message messageInfo) {
         try {
             // false 移除队列  true 不移除

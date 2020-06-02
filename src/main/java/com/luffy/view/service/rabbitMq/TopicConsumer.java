@@ -1,10 +1,12 @@
 package com.luffy.view.service.rabbitMq;
 
+import com.luffy.view.annotation.ClazzTag;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 @Component
+@ClazzTag(tag = "TopicConsumer")
 public class TopicConsumer {
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue("province-news-queue"),
