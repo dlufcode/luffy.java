@@ -1,0 +1,131 @@
+2020-06-08 14:23:08.113 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  c.a.b.d.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v0.2.0) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.2) : https://github.com/apache/incubator-dubbo
+ :: Google group : dev@dubbo.incubator.apache.org
+
+2020-06-08 14:23:08.119 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  c.a.b.d.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {}
+2020-06-08 14:23:08.342 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  com.luffy.view.DemoApplication - Starting DemoApplication on liangjundeMacBook-Pro.local with PID 12409 (/Users/liangjun/Documents/java-space/dlufcode/luffy.java/target/classes started by liangjun in /Users/liangjun/Documents/java-space/dlufcode/luffy.java)
+2020-06-08 14:23:08.368 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  com.luffy.view.DemoApplication - No active profile set, falling back to default profiles: default
+2020-06-08 14:23:08.775 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-08 14:23:08.776 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-08 14:23:09.684 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-08 14:23:09.688 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-08 14:23:09.727 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-06-08 14:23:10.126 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration' of type [com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$9c4c5ad5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-08 14:23:11.046 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-08 14:23:11.073 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-08 14:23:11.074 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-08 14:23:11.077 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-08 14:23:11.166 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-08 14:23:11.166 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2390 ms
+2020-06-08 14:23:11.177 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  c.luffy.view.config.datasource.DruidConfiguration - init Druid Servlet Configuration 
+2020-06-08 14:23:13.931 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-08 14:23:14.932 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-08 14:23:14.941 [springAppName_IS_UNDEFINED,,,] [restartedMain] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2020-06-08 14:23:15.067 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group1
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 10
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-06-08 14:23:15.157 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.3.1
+2020-06-08 14:23:15.158 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-06-08 14:23:15.158 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1591597395154
+2020-06-08 14:23:15.162 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-1, groupId=group1] Subscribed to topic(s): test
+2020-06-08 14:23:15.163 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-06-08 14:23:15.186 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2020-06-08 14:23:15.726 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-1, groupId=group1] Cluster ID: AaHWfhm5RiClS3G63ArHtQ
+2020-06-08 14:23:15.727 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Discovered group coordinator 10.23.130.84:9092 (id: 2147483647 rack: null)
+2020-06-08 14:23:15.730 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Revoking previously assigned partitions []
+2020-06-08 14:23:15.730 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - group1: partitions revoked: []
+2020-06-08 14:23:15.730 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] (Re-)joining group
+2020-06-08 14:23:15.745 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] (Re-)joining group
+2020-06-08 14:23:15.769 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Successfully joined group with generation 43
+2020-06-08 14:23:15.772 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Setting newly assigned partitions: test-0
+2020-06-08 14:23:15.785 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Setting offset for partition test-0 to the committed offset FetchPosition{offset=12, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=10.23.130.84:9092 (id: 0 rack: null), epoch=0}}
+2020-06-08 14:23:15.810 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - group1: partitions assigned: [test-0]
+2020-06-08 14:23:16.578 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#731a8083:0/SimpleConnection@44a4019e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62305]
+2020-06-08 14:23:16.688 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-08 14:23:16.707 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-08 14:23:16.711 [springAppName_IS_UNDEFINED,,,] [restartedMain] INFO  com.luffy.view.DemoApplication - Started DemoApplication in 9.125 seconds (JVM running for 13.03)
+2020-06-08 14:23:42.159 [springAppName_IS_UNDEFINED,,,] [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-08 14:23:42.160 [springAppName_IS_UNDEFINED,,,] [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-08 14:23:42.264 [springAppName_IS_UNDEFINED,,,] [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 104 ms
+2020-06-08 14:25:28.583 [springAppName_IS_UNDEFINED,,,] [kafka-coordinator-heartbeat-thread | group1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Group coordinator 10.23.130.84:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-06-08 14:25:31.871 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Discovered group coordinator 10.23.130.84:9092 (id: 2147483647 rack: null)
+2020-06-08 14:25:32.990 [springAppName_IS_UNDEFINED,,,] [kafka-coordinator-heartbeat-thread | group1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Attempt to heartbeat failed for since member id consumer-1-2d280c1d-6167-46e5-9ed1-44cd0319c05f is not valid.
+2020-06-08 14:25:33.006 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Revoking previously assigned partitions [test-0]
+2020-06-08 14:25:33.006 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - group1: partitions revoked: [test-0]
+2020-06-08 14:25:33.006 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] (Re-)joining group
+2020-06-08 14:25:33.712 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] (Re-)joining group
+2020-06-08 14:25:33.741 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=group1] Successfully joined group with generation 45
+2020-06-08 14:25:33.742 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Setting newly assigned partitions: test-0
+2020-06-08 14:25:33.744 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=group1] Setting offset for partition test-0 to the committed offset FetchPosition{offset=12, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=10.23.130.84:9092 (id: 0 rack: null), epoch=0}}
+2020-06-08 14:25:33.748 [springAppName_IS_UNDEFINED,,,] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - group1: partitions assigned: [test-0]
+2020-06-08 14:25:33.814 [springAppName_IS_UNDEFINED,,,] [http-nio-8080-exec-5] INFO  com.github.shyiko.mysql.binlog.BinaryLogClient - Connected to 127.0.0.1:3306 at mysql-bin.000005/154 (sid:65535, cid:18)

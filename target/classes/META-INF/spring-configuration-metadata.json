@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.luffy.view.config.datasource.DataSourceConfiguration",
+      "sourceMethod": "masterDataSource()"
+    },
+    {
+      "name": "spring.read2",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.luffy.view.config.datasource.DataSourceConfiguration",
+      "sourceMethod": "slaveDataSourceTwo()"
+    },
+    {
+      "name": "spring.slave",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.luffy.view.config.datasource.DataSourceConfiguration",
+      "sourceMethod": "slaveDataSourceOne()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

@@ -1,0 +1,5 @@
+
+„squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "orderList".(Ñ½ñ»üÿÿÿÿ8¨Œ»ö§.
+Psquid:S1481"-Remove this unused "criteria" local variable.(ªÍ¨Ùÿÿÿÿÿ8ŽÃ¸ö§.
+_squid:S1854"<Remove this useless assignment to local variable "criteria".(ªÍ¨Ùÿÿÿÿÿ8ŽÃ¸ö§.
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ý¹º6

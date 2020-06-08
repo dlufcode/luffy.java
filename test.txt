@@ -5,3 +5,5 @@ direct.exchange = exchange=1&routkey=mine.direct&message=direct.exchange
 fanout.exchange = exchange=2&routkey=key.one&message=fanout.exchange
 topic.exchange = exchange=3&routkey=province.city.street&message=topic.exchange
 delayMessage?message=delayMessage
+#kafka
+kafka/send?message=kafka
