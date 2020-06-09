@@ -5,6 +5,7 @@ import com.github.shyiko.mysql.binlog.event.*;
 import com.github.shyiko.mysql.binlog.event.deserialization.EventDeserializer;
 import com.google.gson.Gson;
 import com.luffy.view.enums.BinLogEventEnum;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
@@ -17,7 +18,7 @@ import java.util.Map;
 
 @Component
 public class BinLogService {
-
+    
     public void listen(Database database, List<DataTable> dataTables) throws IOException {
         BinaryLogClient client = new BinaryLogClient(
                 database.getIp(),

@@ -107,10 +107,7 @@ public class MybatisConfiguration {
 
     private List<TableRuleConfiguration> buildTableRules() {
         List<TableRuleConfiguration> tableRuleConfigurations = new ArrayList<>();
-        tableRuleConfigurations.add(getTableRuleConfiguration("fulfill_order", "order_id", 128));
-        tableRuleConfigurations.add(getTableRuleConfiguration("fulfill_express", "order_id", 128));
-        tableRuleConfigurations.add(getTableRuleConfiguration("fulfill_oversea", "order_id", 128));
-        tableRuleConfigurations.add(getTableRuleConfiguration("fulfill_order_sku", "order_id", 128));
+        tableRuleConfigurations.add(getTableRuleConfiguration("order", "order_id", 2));
         return tableRuleConfigurations;
     }
 

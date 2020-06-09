@@ -1,0 +1,87 @@
+POST http://localhost:8080/demo/add/order
+Accept: */*
+Content-Type: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T051330.200.txt
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: */*
+Content-Type: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T051308.200.txt
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: */*
+Content-Type: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T051240.200.txt
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T051125.415.json
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T051124.415.json
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: application/json
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T050857.415.json
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: application/json
+Cache-Control: no-cache
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T050816.415.json
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: application/json
+Cache-Control: no-cache
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T050814.415.json
+
+###
+
+POST http://localhost:8080/demo/add/order
+Accept: */*
+Cache-Control: no-cache
+
+{     "orderId":1,     "skuId":1,     "status":0 }
+
+<> 2020-06-09T050734.415.json
+
+###
+
